@@ -1,6 +1,29 @@
-/* body {
-  background-image: url("https://www.devastudios.com/wp-content/uploads/2017/08/Proj_AshvsEvilDead_1up_1920x1080_3.jpg");
-} */
-.card-body {
-  opacity: 1;
+body {
+  background-image: url("http://www.anband.spb.ru/images/000/DSC100079898.jpg");
+  
+}
+
+#timer {
+  color: rgb(255, 0, 51);
+}
+h2 {
+  color: rgb(255, 0, 51);
+  font-family: 'Acme', sans-serif;
+}
+
+.jumbotron{
+  color: rgb(255, 255, 255);
+  
+  font-family: 'Acme', sans-serif;
+
+}
+.load-picture{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
+}
+#q4{
+  width: 150%;
 }

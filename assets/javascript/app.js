@@ -1,5 +1,5 @@
 // variables
-var time = 45;
+var time = 40;
 var correct = 0;
 var incorrect = 0;
 var unanswered = 8;
@@ -14,6 +14,15 @@ var question6Answer = "";
 var question7Answer = "";
 var question8Answer = "";
 
+//audio elements
+var boomstick = document.createElement("audio");
+boomstick.setAttribute("src", "assets/audio/boomstick.mp3");
+var pants = document.createElement("audio");
+pants.setAttribute("src", "assets/audio/pants.mp3");
+var run = document.createElement("audio");
+run.setAttribute("src", "assets/audio/run.mp3");
+
+
 
 
 //page loads
@@ -22,21 +31,24 @@ $('#game').hide();
 $(".end").hide();
 started === false;
 console.log("ready");
-}
+ 
+} 
+
 
 load();
 
 //start game
-$(".bg-danger").click(start);
+$(".bg-primary").click(start);
 
 
 function start (){
   $('#game').show();
-  $('.bg-danger').hide();
+  $('.bg-primary').hide();
+  $('.load-picture').hide();
   started === true;
   clearInterval(intervalId);
   intervalId = setInterval(decrement, 1000);
-
+  boomstick.play();
   
 }
 
@@ -204,7 +216,8 @@ function question8(){
 function stop() {
   clearInterval(intervalId);
   $('#game').hide();
-  $(".start screen").hide();
+  $(".start-screen").hide();
+  $('.load-picture').show();
   question1();
   console.log(question1Answer);
   question2();
@@ -225,6 +238,12 @@ function stop() {
   $("#correct").text("Correct: " + correct);
   $("#incorrect").text("Incorrect: " + incorrect);
   $("#unanswered").text("Unanswered: " + unanswered);
+  if (correct > 6){
+    pants.play();
+  }
+  else{
+    run.play();
+  }
   
 
 }
