@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Trivia Game</title>
+</head>
+
+<body>
+  <div class="container">
+    <!-- header -->
+    <div class="start screen">
+      <div class="jumbotron text-center">
+        <h1 class="display-4">Bruce Campbell Trivia!</h1>
+        <p class="lead">This quiz will test your knowledge of The Chin himself.</p>
+        <p class="lead">You have 45 seconds to complete the quiz.</p>
+        <a class="btn btn-primary btn-lg bg-danger" href="#" role="button">Start</a>
+      </div>
+    </div>
+    <!-- start button -->
+    <div id="game">
+      <!-- timer -->
+      <div class="row">
+        <div class="col-md-12 text-center mb-4">
+          <div id="timer">
+            <div class="card">
+              <div class="card-body">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- question1 -->
+      <div class="row">
+        <div class="col-md-3 mr-3">
+          <img src="assets/images/1.jpg" class="rounded img-thumbnail " alt="...">
+        </div>
+        <div class="col-md-8 bg-white">
+          
+          <h2>Bruce is most known for playing which iconic character?</h2>
+        </div>
+      </div>
+      
+      <select class="custom-select" id="q1">
+        <option value="1">Click here.</option>  
+        <option value="2">Brisco County, Jr.</option>
+        <option value="3">Ashley Joanna Williams</option>
+        <option value="4">Sam Axe</option>
+        
+      </select>
+  
+      
+      <!-- question2 -->
+      <div class="row">
+        <div class="col-md-3 mr-3">
+          <img src="assets/images/2.jpg" class="rounded img-thumbnail " alt="...">
+        </div>
+        <div class="col-md-7">
+          <h2>Bruce is a long-time collaborator with which acclaimed director?</h2>
+        </div>
+      </div>
+      <select class="custom-select" id="q2">
+          <option value="1">Click here.</option> 
+        <option value="2">Sam Raimi</option>
+        <option value="3">Tim Burton</option>
+        <option value="4">Bryan Singer</option>
+      </select>
+      <!-- question3 -->
+      <div class="row">
+        <div class="col-md-3 mr-3">
+          <img src="assets/images/3.jpg" class="rounded img-thumbnail " alt="...">
+        </div>
+        <div class="col-md-7">
+          <h2>Bruce was born in 1958 in what state?</h2>
+        </div>
+      </div>
+      <select class="custom-select" id="q3">
+          <option value="1">Click here.</option> 
+        <option value="2">Michigan</option>
+        <option value="3">Nevada</option>
+        <option value="4">Maine</option>
+      </select>
+      <!-- question4 -->
+      <div class="row">
+        <div class="col-md-3 mr-3">
+          <img src="assets/images/4.jpg" class="rounded img-thumbnail " alt="...">
+        </div>
+        <div class="col-md-7">
+          <h2>Which famous rockstar did Bruce portray in 2002?</h2>
+        </div>
+      </div>
+      <select class="custom-select" id="q4">
+          <option value="1">Click here.</option> 
+        <option value="2">Neil Young</option>
+        <option value="3">Elvis</option>
+        <option value="4">Johnny Cash</option>
+      </select>
+      <!-- question5 -->
+      <div class="row">
+        <div class="col-md-3 mr-3">
+          <img src="assets/images/5.jpg" class="rounded img-thumbnail " alt="...">
+        </div>
+        <div class="col-md-7">
+          <h2>Bruce has made cameos as three different characters in what popular film trilogy?</h2>
+        </div>
+      </div>
+      <select class="custom-select" id="q5">
+          <option value="1">Click here.</option> 
+        <option value="2">Pirates of the Caribbean</option>
+        <option value="3">Scream</option>
+        <option value="4">Spider-Man</option>
+      </select>
+      <!-- question6 -->
+      <div class="row">
+        <div class="col-md-3 mr-3">
+          <img src="assets/images/6.jpg" class="rounded img-thumbnail " alt="...">
+        </div>
+        <div class="col-md-7">
+          <h2>Bruce is known for what famous movie quote?</h2>
+        </div>
+      </div>
+      <select class="custom-select" id="q6">
+          <option value="1">Click here.</option> 
+        <option value="2">“Sometimes dead is better.”</option>
+        <option value="3">"That’s my mother you’re pissing on."</option>
+        <option value="4">"Groovy."</option>
+      </select>
+      <!-- question7 -->
+      <div class="row">
+        <div class="col-md-3 mr-3">
+          <img src="assets/images/7.jpg" class="rounded img-thumbnail " alt="...">
+        </div>
+        <div class="col-md-7">
+          <h2>Bruce portrayed what United States president on the T.V. show "Fargo"?</h2>
+        </div>
+      </div>
+      <select class="custom-select" id="q7">
+          <option value="1">Click here.</option> 
+        <option value="2">Ronald Reagan</option>
+        <option value="3">George H. W. Bush</option>
+        <option value="4">Richard Nixon</option>
+      </select>
+      <!-- question8 -->
+      <div class="row">
+        <div class="col-md-3 mr-3">
+          <img src="assets/images/8.jpg" class="rounded img-thumbnail " alt="...">
+        </div>
+        <div class="col-md-7">
+          <h2>Bruce has penned which one of the following books?</h2>
+        </div>
+      </div>
+      <select class="custom-select" id="q8">
+          <option value="1">Click here.</option> 
+        <option value="2">"This Is Not Fame: A 'From What I Re-Memoir' "</option>
+        <option value="3">"If Chins Could Kill"</option>
+        <option value="4">"The Elephant to Hollywood"</option>
+      </select>
+    </div>
+    <!-- finished screen -->
+    <div class="end">
+      <div class="jumbotron text-center">
+        <h1 class="display-4">Game Over!</h1>
+        <p class="lead" >You got: </p>
+        <p class="lead" id="correct"> </p>
+        <p class="lead" id="incorrect">Incorrect: </p>
+        <p class="lead" id="unanswered">Unanswered: </p>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
