@@ -238,7 +238,7 @@ function stop() {
   $("#correct").text("Correct: " + correct);
   $("#incorrect").text("Incorrect: " + incorrect);
   $("#unanswered").text("Unanswered: " + unanswered);
-  if (correct > 6){
+  if (correct >= 5){
     pants.play();
   }
   else{
