@@ -93,7 +93,7 @@ $("#q3").on("change", function() {
 $("#q4").on("change", function() {
   
   question4Answer = this.value;
-  console.log(question4Answer);
+  
   
 })
 

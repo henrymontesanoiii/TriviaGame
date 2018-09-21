@@ -1,7 +1,7 @@
 body {
-  background-image: url("http://www.anband.spb.ru/images/000/DSC100079898.jpg");
-  
+background-image: url("../images/background.jpg");
 }
+  
 
 #timer {
   color: rgb(255, 0, 51);
@@ -18,6 +18,3 @@ h2 {
 
 }
 
-#q4{
-  width: 150%;
-}
