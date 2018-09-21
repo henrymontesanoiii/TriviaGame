@@ -93,6 +93,7 @@ $("#q3").on("change", function() {
 $("#q4").on("change", function() {
   
   question4Answer = this.value;
+  console.log(question4Answer);
   
 })
 
@@ -238,7 +239,7 @@ function stop() {
   $("#correct").text("Correct: " + correct);
   $("#incorrect").text("Incorrect: " + incorrect);
   $("#unanswered").text("Unanswered: " + unanswered);
-  if (correct >= 5){
+  if (correct > 4){
     pants.play();
   }
   else{
