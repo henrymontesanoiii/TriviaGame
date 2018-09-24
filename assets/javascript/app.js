@@ -1,5 +1,5 @@
 // variables
-var time = 40;
+var time = 60;
 var correct = 0;
 var incorrect = 0;
 var unanswered = 8;
