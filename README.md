@@ -1,7 +1,7 @@
 # Bruce Campbell Trivia (Rutgers Bootcamp HW)
 ![Trivia](https://henrymontesanoiii.github.io/static/media/Trivia.91e175c8.png)
 
-####Live Site: [Bruce Campbell Trivia!](https://henrymontesanoiii.github.io/TriviaGame/#)
+Live Site: [Bruce Campbell Trivia!](https://henrymontesanoiii.github.io/TriviaGame/#)
 ----
 
 ## User Story
